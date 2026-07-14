@@ -1,0 +1,92 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Usuário\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v24.11.1
+3 silly config load:file:C:\Users\Usuário\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:D:\Vitor_Tec\Bookstore_Manager_CLI\.npmrc
+5 silly config load:file:C:\Users\Usuário\.npmrc
+6 silly config load:file:C:\Users\Usuário\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install pg dotenv
+8 verbose argv "install" "pg" "dotenv"
+9 verbose logfile logs-max:10 dir:D:\Vitor_Tec\Bookstore_Manager_CLI\npm-cache\_logs\2026-07-14T00_31_05_529Z-
+10 verbose logfile D:\Vitor_Tec\Bookstore_Manager_CLI\npm-cache\_logs\2026-07-14T00_31_05_529Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest pg@^8.22.0
+16 silly packumentCache full:https://registry.npmjs.org/pg cache-miss
+17 http cache https://registry.npmjs.org/pg 18ms (cache hit)
+18 silly packumentCache full:https://registry.npmjs.org/pg set size:479959 disposed:false
+19 silly fetch manifest pg-native@>=3.0.1
+20 silly packumentCache full:https://registry.npmjs.org/pg-native cache-miss
+21 http cache https://registry.npmjs.org/pg-native 5ms (cache hit)
+22 silly packumentCache full:https://registry.npmjs.org/pg-native set size:92711 disposed:false
+23 silly fetch manifest dotenv@*
+24 silly packumentCache full:https://registry.npmjs.org/dotenv cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/dotenv 223ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/dotenv set size:undefined disposed:false
+27 silly placeDep ROOT dotenv@17.4.2 OK for: bookstore_manager_cli@1.0.0 want: *
+28 silly placeDep ROOT pg@8.22.0 REPLACE for: bookstore_manager_cli@1.0.0 want: ^8.22.0
+29 silly reify moves {}
+30 silly audit bulk request {
+30 silly audit   '@esbuild/aix-ppc64': [ '0.28.1' ],
+30 silly audit   '@esbuild/android-arm': [ '0.28.1' ],
+30 silly audit   '@esbuild/android-arm64': [ '0.28.1' ],
+30 silly audit   '@esbuild/android-x64': [ '0.28.1' ],
+30 silly audit   '@esbuild/darwin-arm64': [ '0.28.1' ],
+30 silly audit   '@esbuild/darwin-x64': [ '0.28.1' ],
+30 silly audit   '@esbuild/freebsd-arm64': [ '0.28.1' ],
+30 silly audit   '@esbuild/freebsd-x64': [ '0.28.1' ],
+30 silly audit   '@esbuild/linux-arm': [ '0.28.1' ],
+30 silly audit   '@esbuild/linux-arm64': [ '0.28.1' ],
+30 silly audit   '@esbuild/linux-ia32': [ '0.28.1' ],
+30 silly audit   '@esbuild/linux-loong64': [ '0.28.1' ],
+30 silly audit   '@esbuild/linux-mips64el': [ '0.28.1' ],
+30 silly audit   '@esbuild/linux-ppc64': [ '0.28.1' ],
+30 silly audit   '@esbuild/linux-riscv64': [ '0.28.1' ],
+30 silly audit   '@esbuild/linux-s390x': [ '0.28.1' ],
+30 silly audit   '@esbuild/linux-x64': [ '0.28.1' ],
+30 silly audit   '@esbuild/netbsd-arm64': [ '0.28.1' ],
+30 silly audit   '@esbuild/netbsd-x64': [ '0.28.1' ],
+30 silly audit   '@esbuild/openbsd-arm64': [ '0.28.1' ],
+30 silly audit   '@esbuild/openbsd-x64': [ '0.28.1' ],
+30 silly audit   '@esbuild/openharmony-arm64': [ '0.28.1' ],
+30 silly audit   '@esbuild/sunos-x64': [ '0.28.1' ],
+30 silly audit   '@esbuild/win32-arm64': [ '0.28.1' ],
+30 silly audit   '@esbuild/win32-ia32': [ '0.28.1' ],
+30 silly audit   '@esbuild/win32-x64': [ '0.28.1' ],
+30 silly audit   '@types/node': [ '26.1.1' ],
+30 silly audit   '@types/pg': [ '8.20.0' ],
+30 silly audit   esbuild: [ '0.28.1' ],
+30 silly audit   fsevents: [ '2.3.3' ],
+30 silly audit   'pg-cloudflare': [ '1.4.0' ],
+30 silly audit   'pg-connection-string': [ '2.14.0' ],
+30 silly audit   'pg-int8': [ '1.0.1' ],
+30 silly audit   'pg-pool': [ '3.14.0' ],
+30 silly audit   'pg-protocol': [ '1.15.0' ],
+30 silly audit   'pg-types': [ '2.2.0' ],
+30 silly audit   pgpass: [ '1.0.5' ],
+30 silly audit   'postgres-array': [ '2.0.0' ],
+30 silly audit   'postgres-bytea': [ '1.0.1' ],
+30 silly audit   'postgres-date': [ '1.0.7' ],
+30 silly audit   'postgres-interval': [ '1.2.0' ],
+30 silly audit   split2: [ '4.2.0' ],
+30 silly audit   tsx: [ '4.23.1' ],
+30 silly audit   typescript: [ '5.9.3' ],
+30 silly audit   'undici-types': [ '8.3.0' ],
+30 silly audit   xtend: [ '4.0.2' ],
+30 silly audit   dotenv: [ '17.4.2' ],
+30 silly audit   pg: [ '8.22.0' ]
+30 silly audit }
+31 http cache dotenv@https://registry.npmjs.org/dotenv/-/dotenv-17.4.2.tgz 0ms (cache hit)
+32 silly tarball no local data for dotenv@https://registry.npmjs.org/dotenv/-/dotenv-17.4.2.tgz. Extracting by manifest.
+33 http fetch GET 200 https://registry.npmjs.org/dotenv/-/dotenv-17.4.2.tgz 154ms (cache miss)
+34 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 241ms
+35 silly audit report {}
+36 silly ADD node_modules/dotenv
+37 verbose cwd D:\Vitor_Tec\Bookstore_Manager_CLI
+38 verbose os Windows_NT 10.0.26200
+39 verbose node v24.11.1
+40 verbose npm  v11.12.1
+41 verbose exit 0
+42 info ok

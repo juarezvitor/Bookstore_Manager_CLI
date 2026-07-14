@@ -1,0 +1,82 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Usuário\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v24.11.1
+3 silly config load:file:C:\Users\Usuário\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:D:\Vitor_Tec\Bookstore_Manager_CLI\.npmrc
+5 silly config load:file:C:\Users\Usuário\.npmrc
+6 silly config load:file:C:\Users\Usuário\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install @types/pg
+8 verbose argv "install" "--save-dev" "@types/pg"
+9 verbose logfile logs-max:10 dir:D:\Vitor_Tec\Bookstore_Manager_CLI\npm-cache\_logs\2026-07-14T00_28_56_603Z-
+10 verbose logfile D:\Vitor_Tec\Bookstore_Manager_CLI\npm-cache\_logs\2026-07-14T00_28_56_603Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest @types/pg@*
+16 silly packumentCache full:https://registry.npmjs.org/@types%2fpg cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/@types%2fpg 184ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/@types%2fpg set size:undefined disposed:false
+19 silly placeDep ROOT @types/pg@8.20.0 OK for: bookstore_manager_cli@1.0.0 want: *
+20 silly reify moves {}
+21 silly audit bulk request {
+21 silly audit   '@esbuild/aix-ppc64': [ '0.28.1' ],
+21 silly audit   '@esbuild/android-arm': [ '0.28.1' ],
+21 silly audit   '@esbuild/android-arm64': [ '0.28.1' ],
+21 silly audit   '@esbuild/android-x64': [ '0.28.1' ],
+21 silly audit   '@esbuild/darwin-arm64': [ '0.28.1' ],
+21 silly audit   '@esbuild/darwin-x64': [ '0.28.1' ],
+21 silly audit   '@esbuild/freebsd-arm64': [ '0.28.1' ],
+21 silly audit   '@esbuild/freebsd-x64': [ '0.28.1' ],
+21 silly audit   '@esbuild/linux-arm': [ '0.28.1' ],
+21 silly audit   '@esbuild/linux-arm64': [ '0.28.1' ],
+21 silly audit   '@esbuild/linux-ia32': [ '0.28.1' ],
+21 silly audit   '@esbuild/linux-loong64': [ '0.28.1' ],
+21 silly audit   '@esbuild/linux-mips64el': [ '0.28.1' ],
+21 silly audit   '@esbuild/linux-ppc64': [ '0.28.1' ],
+21 silly audit   '@esbuild/linux-riscv64': [ '0.28.1' ],
+21 silly audit   '@esbuild/linux-s390x': [ '0.28.1' ],
+21 silly audit   '@esbuild/linux-x64': [ '0.28.1' ],
+21 silly audit   '@esbuild/netbsd-arm64': [ '0.28.1' ],
+21 silly audit   '@esbuild/netbsd-x64': [ '0.28.1' ],
+21 silly audit   '@esbuild/openbsd-arm64': [ '0.28.1' ],
+21 silly audit   '@esbuild/openbsd-x64': [ '0.28.1' ],
+21 silly audit   '@esbuild/openharmony-arm64': [ '0.28.1' ],
+21 silly audit   '@esbuild/sunos-x64': [ '0.28.1' ],
+21 silly audit   '@esbuild/win32-arm64': [ '0.28.1' ],
+21 silly audit   '@esbuild/win32-ia32': [ '0.28.1' ],
+21 silly audit   '@esbuild/win32-x64': [ '0.28.1' ],
+21 silly audit   '@types/node': [ '26.1.1' ],
+21 silly audit   esbuild: [ '0.28.1' ],
+21 silly audit   fsevents: [ '2.3.3' ],
+21 silly audit   pg: [ '8.22.0' ],
+21 silly audit   'pg-cloudflare': [ '1.4.0' ],
+21 silly audit   'pg-connection-string': [ '2.14.0' ],
+21 silly audit   'pg-int8': [ '1.0.1' ],
+21 silly audit   'pg-pool': [ '3.14.0' ],
+21 silly audit   'pg-protocol': [ '1.15.0' ],
+21 silly audit   'pg-types': [ '2.2.0' ],
+21 silly audit   pgpass: [ '1.0.5' ],
+21 silly audit   'postgres-array': [ '2.0.0' ],
+21 silly audit   'postgres-bytea': [ '1.0.1' ],
+21 silly audit   'postgres-date': [ '1.0.7' ],
+21 silly audit   'postgres-interval': [ '1.2.0' ],
+21 silly audit   split2: [ '4.2.0' ],
+21 silly audit   tsx: [ '4.23.1' ],
+21 silly audit   typescript: [ '5.9.3' ],
+21 silly audit   'undici-types': [ '8.3.0' ],
+21 silly audit   xtend: [ '4.0.2' ],
+21 silly audit   '@types/pg': [ '8.20.0' ]
+21 silly audit }
+22 http cache @types/pg@https://registry.npmjs.org/@types/pg/-/pg-8.20.0.tgz 0ms (cache hit)
+23 silly tarball no local data for @types/pg@https://registry.npmjs.org/@types/pg/-/pg-8.20.0.tgz. Extracting by manifest.
+24 http fetch GET 200 https://registry.npmjs.org/@types/pg/-/pg-8.20.0.tgz 129ms (cache miss)
+25 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 278ms
+26 silly audit report {}
+27 silly ADD node_modules/@types/pg
+28 verbose cwd D:\Vitor_Tec\Bookstore_Manager_CLI
+29 verbose os Windows_NT 10.0.26200
+30 verbose node v24.11.1
+31 verbose npm  v11.12.1
+32 verbose exit 0
+33 info ok

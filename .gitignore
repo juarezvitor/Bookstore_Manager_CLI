@@ -1,4 +1,8 @@
 node_modules/
+<<<<<<< HEAD
 dist
+=======
+dist/
+>>>>>>> feat/interface
 npm-cache/
 .env

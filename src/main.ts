@@ -1,3 +1,5 @@
+import { testConnection } from "./database/connection";
+
 /*import * as readline from "readline";
 import { MenuPrincipal } from "./menus/MenuPrincipal";
 import { MenuGerencialAutores } from "./menus/MenuGerencialAutores";
@@ -36,3 +38,9 @@ async function iniciar() {
 }
 
 iniciar();*/
+
+async function main(): Promise<void> {
+  await testConnection();
+}
+
+main();

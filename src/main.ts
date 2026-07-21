@@ -2,6 +2,7 @@ import { testConnection } from "./database/connection";
 import { exibirMenuAutor } from "./menus/autorMenu";
 import { exibirMenuLivro } from "./menus/livroMenu";
 import { perguntar, fecharReadline } from "./utils/readlineHelper";
+import { exibirMenuCliente } from "./menus/clienteMenu";
 
 async function menuPrincipal(): Promise<void> {
   let continuar = true;
@@ -10,6 +11,7 @@ async function menuPrincipal(): Promise<void> {
     console.log("=== BookStore Manager CLI ===");
     console.log("1 - Autores");
     console.log("2 - Livros");
+    console.log("3 - Clientes");
     console.log("0 - Sair");
 
     const opcao = await perguntar("Escolha uma opção: ");
@@ -20,6 +22,9 @@ async function menuPrincipal(): Promise<void> {
         break;
       case "2":
         await exibirMenuLivro();
+        break;
+      case "3":
+        await exibirMenuCliente();
         break;
       case "0":
         continuar = false;

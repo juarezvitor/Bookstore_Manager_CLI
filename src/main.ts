@@ -1,46 +1,40 @@
 import { testConnection } from "./database/connection";
+import { exibirMenuAutor } from "./menus/autorMenu";
+import { exibirMenuLivro } from "./menus/livroMenu";
+import { perguntar, fecharReadline } from "./utils/readlineHelper";
 
-/*import * as readline from "readline";
-import { MenuPrincipal } from "./menus/MenuPrincipal";
-import { MenuGerencialAutores } from "./menus/MenuGerencialAutores";
+async function menuPrincipal(): Promise<void> {
+  let continuar = true;
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
+  while (continuar) {
+    console.log("=== BookStore Manager CLI ===");
+    console.log("1 - Autores");
+    console.log("2 - Livros");
+    console.log("0 - Sair");
 
-const menuAutores = new MenuGerencialAutores(rl);
-const menu = new MenuPrincipal(rl);
+    const opcao = await perguntar("Escolha uma opção: ");
 
-async function iniciar() {
-  let sair = false;
-  while (!sair) {
-    const opcao = await menu.mostrarMenuPrincipal();
     switch (opcao) {
       case "1":
-        await menuAutores.Iniciar();
+        await exibirMenuAutor();
         break;
       case "2":
-        console.log("Gerenciando Clientes...");
+        await exibirMenuLivro();
         break;
-      case "3":
-        console.log("Gerenciando Pedidos...");
-        break;
-      case "4":
-        sair = true;
+      case "0":
+        continuar = false;
         break;
       default:
-        console.log("Opção inválida.");
+        console.log("\nOpção inválida.\n");
     }
   }
-
-  rl.close();
 }
-
-iniciar();*/
 
 async function main(): Promise<void> {
   await testConnection();
+  await menuPrincipal();
+  fecharReadline();
+  process.exit(0);
 }
 
 main();

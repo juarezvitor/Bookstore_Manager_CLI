@@ -3,6 +3,7 @@ import { exibirMenuAutor } from "./menus/autorMenu";
 import { exibirMenuLivro } from "./menus/livroMenu";
 import { perguntar, fecharReadline } from "./utils/readlineHelper";
 import { exibirMenuCliente } from "./menus/clienteMenu";
+import { exibirMenuEmprestimo } from "./menus/emprestimoMenu";
 
 async function menuPrincipal(): Promise<void> {
   let continuar = true;
@@ -12,6 +13,7 @@ async function menuPrincipal(): Promise<void> {
     console.log("1 - Autores");
     console.log("2 - Livros");
     console.log("3 - Clientes");
+    console.log("4 - Empréstimos");
     console.log("0 - Sair");
 
     const opcao = await perguntar("Escolha uma opção: ");
@@ -25,6 +27,9 @@ async function menuPrincipal(): Promise<void> {
         break;
       case "3":
         await exibirMenuCliente();
+        break;
+      case "4":
+        await exibirMenuEmprestimo();
         break;
       case "0":
         continuar = false;

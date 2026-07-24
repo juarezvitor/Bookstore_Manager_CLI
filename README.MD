@@ -223,7 +223,7 @@ psql -U postgres -d bookstore_manager -f database.sql
 
 ```bash
 # 1. Clone o repositório
-git clone <url-do-repositorio>
+git clone <https://github.com/juarezvitor/Bookstore_Manager_CLI.git>
 cd bookstore-manager-cli
 
 # 2. Instale as dependências
@@ -307,8 +307,5 @@ Decisões de arquitetura relevantes:
 
 ## 👥 Integrantes da equipe
 
-- [Seu nome aqui] — desenvolvimento individual
+- Juarez Vitor — desenvolvimento individual
 
-## 📌 Kanban
-
-> Quadro de acompanhamento das tarefas ainda não criado. Recomenda-se criar um board simples (ex: Trello ou GitHub Projects), organizando as tarefas por requisito (RF01–RF22), e inserir o link aqui antes da entrega.
